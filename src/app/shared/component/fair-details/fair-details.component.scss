@@ -1,0 +1,41 @@
+
+.fair{
+     background-color: #fff;
+}
+
+.banner{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    > .bannerImg{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        // z-index: -1;
+    }
+    .btn{
+      position: absolute;
+      right: 30px;
+      bottom: 40px;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .info{
+        position: absolute;
+        top: 90px;
+        left: 40px;
+        h4{
+            color: #fff;
+            font-weight: bold;
+        }
+        p{
+           color: #fff;
+           font-weight: bold;
+           font-size: 15px;
+        }
+    }
+}
